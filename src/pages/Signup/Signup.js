@@ -28,7 +28,7 @@ function Signup() {
 
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required autofocus/>
-                <label for="inputPassword">Password</label>
+                <label for="inputPassword">PasswordJ</label>
               </div>
 
               
