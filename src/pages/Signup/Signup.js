@@ -32,7 +32,7 @@ function Signup() {
               </div>
 
               
-              <button class="btn btn-lg btn-primary btn-block text-uppercase Log-in" type="submit">Register</button>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase Log-in" type="submit">Signup</button>
               <hr class="my-4"/>
              
             </form>
