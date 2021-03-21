@@ -12,10 +12,12 @@ export default function Header(props){
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <Link class="nav-link nav-component" aria-current="page" to="/login">Login</Link>
-        <Link class="nav-link nav-component" aria-current="page" to="/registration">Registration</Link>
+        <Link class="nav-link nav-component Signup" aria-current="page" to="/Signup">Signup</Link>
+     {/*   <Link class="nav-link nav-component" aria-current="page" to="/registration">Registration</Link>*/} 
         <Link class="nav-link nav-component" aria-current="page" to="/products">Products</Link>  
         <Link class="nav-link nav-component" aria-current="page" to="/contact">Contact</Link>
       <Link class="nav-link nav-component cart" aria-current="page" to="/cart">Cart</Link>
+      
       </div>
       </div>
     </div>

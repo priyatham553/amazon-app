@@ -8,7 +8,7 @@ import Registration from './pages/Registration/Registration';
 import Products from './pages/Products/Products';
 import Contact from './pages/Contact/Contact';
 import Cart from './pages/Cart/Cart';
-
+import Signup from './pages/Signup/Signup';
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +22,8 @@ function App() {
       <Route path='/products' component={Products}/>
       <Route path='/contact' component={Contact}/>
       <Route path='/cart' component={Cart}/>
+      <Route path='/Signup' component={Signup}/>
+      
       </Switch>
       </div>
     </div>
